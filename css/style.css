@@ -120,3 +120,32 @@ header>li {
     text-decoration: underline;
     font-weight: 800;
 }
+
+/* bg_img_container */
+.bg_img_container {
+    background: url(/image/bg_intro.jpg);
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_img_container > h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.bg_img_container > p {
+    font-weight: 600;
+    color: #fff;
+    line-height: 23px;
+    font-size: 18px;
+}
+
+/* band_funcion */
+.band_funcion {
+    width: 1000px;
+}
